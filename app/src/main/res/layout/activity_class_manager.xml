@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity_ManagerClass">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="QUẢN LÝ LỚP HỌC "
+        android:textColor="#1029E7"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/edt_stt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/botron"
+        android:enabled="false"
+        android:gravity="center"
+        android:hint="NHẬP THÔNG TIN"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/edt_idlop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/botron"
+        android:gravity="center"
+        android:hint="ID Lớp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edt_tenlop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/botron"
+        android:gravity="center"
+        android:hint="Tên lớp"
+
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <Button
+            android:id="@+id/btn_reset"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/botron_control"
+            android:text="RESET"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+
+
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/botron_control"
+            android:text="SAVE"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/botron_control"
+            android:enabled="false"
+            android:text="UPDATE"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/botron4"
+        android:text="     STT                  ID LỚP
+                                 TÊN LỚP"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lis_dslop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp" />
+
+
+</LinearLayout>
