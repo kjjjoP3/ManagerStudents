@@ -8,10 +8,12 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import androidx.annotation.Nullable;
 
-import com.example.models.Classroom;
+
 
 import java.util.ArrayList;
 import java.util.List;
+
+import edu.poly.managerstudents.example.models.Classroom;
 
 public class DatabaseClass extends SQLiteOpenHelper {
     public static final String DATABASE_NAME="Manager";

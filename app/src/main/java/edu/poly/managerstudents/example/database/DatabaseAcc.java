@@ -8,10 +8,11 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 import androidx.annotation.Nullable;
 
-import com.example.models.Account;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import edu.poly.managerstudents.example.models.Account;
 
 public class DatabaseAcc extends SQLiteOpenHelper {
     private Context context;

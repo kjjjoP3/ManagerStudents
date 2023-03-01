@@ -10,10 +10,12 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.example.assigment.R;
-import com.example.models.Classroom;
+
 
 import java.util.List;
+
+import edu.poly.managerstudents.R;
+import edu.poly.managerstudents.example.models.Classroom;
 
 public class CustomApdaterClass extends ArrayAdapter<Classroom> {
     private Context context;
@@ -32,7 +34,7 @@ public class CustomApdaterClass extends ArrayAdapter<Classroom> {
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
         ViewHolder viewHolder;
         if (convertView == null) {
-            convertView = LayoutInflater.from(context).inflate(R.layout.item_class, parent, false);
+            convertView = LayoutInflater.from(context).inflate(edu.poly.managerstudents.R.layout.item_class, parent, false);
             viewHolder = new ViewHolder();
             viewHolder.tvid = (TextView) convertView.findViewById(R.id.tv_id);
             viewHolder.tvidlop = (TextView) convertView.findViewById(R.id.tv_idlop);

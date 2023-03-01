@@ -6,13 +6,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".Activity_ManagerClass">
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
         android:layout_marginTop="20dp"
         android:gravity="center"
-        android:text="QUẢN LÝ LỚP HỌC "
+        android:text="QUẢN LÝ LỚP HỌC ă"
         android:textColor="#1029E7"
         android:textSize="30sp"
         android:textStyle="bold" />
