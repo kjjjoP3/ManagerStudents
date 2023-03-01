@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".Activity_CreateAcc">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="ĐĂNG KÍ TÀI KHOẢN"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        android:textColor="#2F46C8"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botron"
+        android:hint="UserName"
+        android:gravity="center"
+        android:layout_margin="15dp"
+        android:id="@+id/edt_usercr"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botron"
+        android:gravity="center"
+        android:password="true"
+        android:layout_margin="15dp"
+        android:hint="Password"
+        android:id="@+id/edt_pascr"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botron"
+        android:hint="AgainPassword"
+        android:layout_margin="15dp"
+        android:password="true"
+        android:gravity="center"
+        android:id="@+id/edt_pas2cr"
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:id="@+id/cb_display"
+        android:text="Hiện mật khẩu"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:background="@drawable/botron_button"
+        android:text="CREATE ACC"
+
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:onClick="addacc"
+        android:id="@+id/btn_cre"/>
+
+</LinearLayout>

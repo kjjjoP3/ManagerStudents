@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:layout_height="50dp">
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:id="@+id/tv_id"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="1"
+        android:textColor="#3E90D1"
+        android:textSize="15sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_height="25dp"
+            android:textColor="#000"
+            android:layout_marginLeft="15dp"
+            android:text="Mod16578"
+            android:id="@+id/tv_idlop"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_marginTop="12dp"
+            android:textColor="#000"
+            android:text="Mod16578"
+            android:textStyle="bold"
+            android:layout_marginLeft="80dp"
+            android:id="@+id/tv_tenlop"
+            android:textSize="15sp"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
