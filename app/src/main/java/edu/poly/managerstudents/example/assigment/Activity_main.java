@@ -1,4 +1,4 @@
-package com.example.assigment;
+package edu.poly.managerstudents.example.assigment;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,6 +7,8 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import edu.poly.managerstudents.R;
 
 public class Activity_main extends AppCompatActivity {
     private Button qll, alll, qlsv, allsv;

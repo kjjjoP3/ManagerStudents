@@ -1,4 +1,4 @@
-package com.example.assigment;
+package edu.poly.managerstudents.example.assigment;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -15,10 +15,11 @@ import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import com.example.database.DatabaseClass;
-import com.example.database.DatabaseStudent;
-import com.example.models.Classroom;
-import com.example.models.Students;
+import edu.poly.managerstudents.Adapter.CustomAdapterStudent;
+import edu.poly.managerstudents.example.database.DatabaseClass;
+import edu.poly.managerstudents.example.database.DatabaseStudent;
+import edu.poly.managerstudents.example.models.Classroom;
+import edu.poly.managerstudents.example.models.Students;
 
 
 import java.util.ArrayList;
@@ -26,7 +27,7 @@ import java.util.List;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
-import Adapter.CustomAdapterStudent;
+
 
 public class Activity_StudentManager extends AppCompatActivity {
     private EditText ten, sdt, email, stt;

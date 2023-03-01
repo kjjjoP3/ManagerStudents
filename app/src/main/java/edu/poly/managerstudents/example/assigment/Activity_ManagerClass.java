@@ -1,4 +1,4 @@
-package com.example.assigment;
+package edu.poly.managerstudents.example.assigment;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,8 +12,9 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 ;
-import com.example.database.DatabaseClass;
-import com.example.models.Classroom;
+import edu.poly.managerstudents.R;
+import edu.poly.managerstudents.example.database.DatabaseClass;
+import edu.poly.managerstudents.example.models.Classroom;
 
 import java.util.List;
 

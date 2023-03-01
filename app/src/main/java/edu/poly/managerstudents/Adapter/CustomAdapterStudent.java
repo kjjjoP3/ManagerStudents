@@ -1,4 +1,4 @@
-package Adapter;
+package edu.poly.managerstudents.Adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,8 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.example.assigment.R;
-import com.example.models.Students;
+import edu.poly.managerstudents.R;
+import edu.poly.managerstudents.example.models.Students;
 
 import java.util.List;
 

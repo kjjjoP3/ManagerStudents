@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.poly.managerstudents.example.assigment"
     xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
 
     <application
         android:allowBackup="true"
-        android:dataExtractionRules="@xml/data_extraction_rules"
-        android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Quản lý sinh viên"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ManagerStudents"
-        tools:targetApi="31">
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity_main"></activity>
+        <activity android:name=".Activity_ManagerClass" android:label="Quản lý lớp học" />
+        <activity android:name=".Activity_CreateAcc"
+            android:label="TẠO TÀI KHOẢN"/>
+        <activity android:name=".Activity_AllStudent" android:label="Danh sách sinh viên" />
+        <activity android:name=".Activity_AllClass" />
+        <activity android:name=".Activity_StudentManager" />
         <activity
-            android:name=".QLSVActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ListLopActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ThemLopActivity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".Activity_Login"
+            android:label="Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

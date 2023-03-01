@@ -1,4 +1,4 @@
-package com.example.models;
+package edu.poly.managerstudents.example.models;
 
 public class Classroom {
 

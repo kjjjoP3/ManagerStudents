@@ -1,4 +1,4 @@
-package com.example.database;
+package edu.poly.managerstudents.example.database;
 
 import android.content.ContentValues;
 import android.content.Context;

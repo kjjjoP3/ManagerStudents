@@ -1,4 +1,4 @@
-package com.example.assigment;
+package edu.poly.managerstudents.example.assigment;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
@@ -15,13 +15,15 @@ import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
 
-import com.example.database.DatabaseStudent;
-import com.example.models.Students;
+import edu.poly.managerstudents.Adapter.CustomAdapterStudent;
+import edu.poly.managerstudents.R;
+import edu.poly.managerstudents.example.database.DatabaseStudent;
+import edu.poly.managerstudents.example.models.Students;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import Adapter.CustomAdapterStudent;
+
 
 public class Activity_AllStudent extends AppCompatActivity {
     private ListView listView;
