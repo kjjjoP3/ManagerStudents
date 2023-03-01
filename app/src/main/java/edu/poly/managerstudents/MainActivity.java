@@ -25,13 +25,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void themLop(View view){
         intent =  new Intent(MainActivity.this, ThemLopActivity.class);
+        startActivity(intent);
     }
 
     public void ListLop(View view){
         intent =  new Intent(MainActivity.this, ListLopActivity.class);
+        startActivity(intent);
     }
 
     public void qlsv(){
         intent =  new Intent(MainActivity.this, QLSVActivity.class);
+        startActivity(intent);
     }
 }
