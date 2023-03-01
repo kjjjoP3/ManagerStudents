@@ -52,4 +52,13 @@ public class LopController {
         cursor.close();
         return list;
     }
+
+    public int deleteLop(String maLop){
+        if(db.delete(TABLE_NAME,"maLop=?", new String[]{maLop})<0){
+            return -1;
+        }
+        else {
+            return 1;
+        }
+    }
 }
